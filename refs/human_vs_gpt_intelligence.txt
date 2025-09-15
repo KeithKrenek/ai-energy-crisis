@@ -1,0 +1,624 @@
+﻿A Multi-Dimensional Assessment of Intelligence: A Comparative Analysis of Human Cognition and the GPT-3, GPT-4, and GPT-5 Architectures
+
+
+
+
+Executive Summary
+
+
+This report provides an exhaustive comparative analysis of intelligence between humans and three successive generations of OpenAI's Generative Pre-trained Transformer models: GPT-3, GPT-4, and the anticipated GPT-5. The analysis moves beyond simplistic, monolithic measures of intelligence to adopt a multi-dimensional framework grounded in established psychological theories, including Spearman's general intelligence (g factor), Gardner's theory of multiple intelligences, and Sternberg's triarchic theory of intelligence. This framework is used to evaluate a comprehensive body of quantitative and qualitative data, from performance on standardized professional and academic examinations to capabilities in higher-order cognitive functions such as creativity, emotional intelligence, and commonsense reasoning.
+The findings reveal a stark bifurcation in the capabilities of these artificial intelligence (AI) systems. In domains corresponding to crystallized intelligence—the retrieval and application of learned knowledge—the models demonstrate an exponential increase in proficiency. GPT-3 showed nascent abilities, performing on par with college students in some reasoning tasks but failing most professional exams. GPT-4 represents a profound leap, achieving expert-level, and in some cases top-percentile, performance on a wide array of human-centric tests, including the Uniform Bar Exam, medical licensing examinations, and the GRE. Projections for GPT-5 indicate a continuation of this trend, with state-of-the-art performance expected in complex domains like advanced mathematics and coding.
+However, this extraordinary proficiency in knowledge-based tasks stands in stark contrast to a persistent and profound deficit in areas that require fluid intelligence, practical reasoning, and genuine understanding. On benchmarks designed to test abstract reasoning and novel problem-solving, such as the Abstraction and Reasoning Corpus (ARC), all GPT models, including GPT-5, perform at levels far below that of an average human. This suggests that current architectures, while exceptionally powerful at interpolation and synthesis within their training data, are fundamentally limited in their ability to extrapolate or reason from first principles in truly novel contexts.
+Qualitative analysis further reinforces this conclusion. While models like GPT-4 can outperform top human thinkers on quantitative measures of creativity (e.g., divergent thinking tests), they lack the subjective depth, emotional resonance, and lived experience that are hallmarks of human origination. Similarly, despite an ability to mimic empathetic language, the models exhibit a significant gap in deep emotional understanding and social intelligence when tested on robust benchmarks. Their grasp of practical, real-world commonsense remains brittle, leading to failures in scenarios that are trivial for humans.
+Ultimately, this report concludes that comparing human and GPT intelligence is not a matter of placing them on a single, linear scale. They represent fundamentally different kinds of cognitive systems. Human intelligence is a general, embodied, adaptive, and conscious faculty. The intelligence of GPT models is a specialized, disembodied, and non-conscious form of cognition that excels at processing and generating patterns from vast datasets. Therefore, these models are best understood not as nascent artificial general intelligences (AGI) but as powerful and specialized cognitive tools whose unique profile of strengths and weaknesses necessitates a nuanced approach to their development, deployment, and integration into society.
+
+
+Section 1: Establishing a Framework for Intelligence
+
+
+To conduct a meaningful comparison between human and artificial intelligence, it is imperative to first deconstruct the multifaceted concept of "intelligence" itself. A monolithic definition, such as a single IQ score, is insufficient to capture the breadth of human cognitive abilities or the unique, spiky capability profile of Large Language Models (LLMs). This section establishes a comprehensive analytical framework by drawing upon foundational theories from psychology to define the spectrum of human cognition, and then contrasts this with the fundamental nature and architectural limitations of AI cognition as embodied in the GPT series.
+
+
+The Spectrum of Human Cognition: Beyond a Single Score
+
+
+The scientific study of human intelligence has produced several influential theories that move beyond a unitary concept, offering a richer vocabulary for comparison.
+
+
+Spearman's General Intelligence (g factor)
+
+
+At the turn of the 20th century, psychologist Charles Spearman observed that an individual's performance on one type of cognitive task tends to be comparable to their performance on other kinds of cognitive tasks.1 This led to the development of the theory of general intelligence, or the "
+g factor," a statistical construct that summarizes the positive correlations among different cognitive ability tests.1 The
+g factor is conceptualized as a broad mental capacity that underlies and influences performance on multiple specific skills, including verbal, spatial, numerical, and mechanical abilities.2 It is what standardized tests, such as those that produce an Intelligence Quotient (IQ) score, primarily aim to measure.3
+The g factor is not a single, monolithic ability but is itself composed of several correlated cognitive functions, including 3:
+* Fluid Reasoning (Gf​): The ability to think flexibly and solve novel problems.
+* Crystallized Knowledge (Gc​): A person's general understanding and accumulated knowledge across a wide range of topics.
+* Quantitative Reasoning (Gq​): The capacity to solve problems involving numbers.
+* Visual-Spatial Processing (Gv​): The ability to interpret, manipulate, and reason about visual information.
+* Working Memory (Gwm​): The use of short-term memory to hold and manipulate information for task completion.
+While the g factor is a powerful predictor of academic and professional success, particularly in complex jobs, it is not the whole story.3 Research indicates that between 51% and 75% of academic achievement cannot be accounted for by the
+g factor alone, highlighting the importance of other variables like socioeconomic status and emotional intelligence.3
+
+
+Gardner's Theory of Multiple Intelligences
+
+
+In 1983, developmental psychologist Howard Gardner challenged the primacy of the g factor, proposing that intelligence is not a single, general ability but rather a collection of distinct and relatively independent modalities.4 This theory is particularly useful for comparing humans and AI, as it provides a framework for understanding how an entity can be exceptionally gifted in one domain while being entirely deficient in another. Gardner's theory, based on research from psychology, neuroscience, and linguistics, identifies at least eight distinct intelligences 4:
+* Linguistic-Verbal Intelligence: The capacity to use and understand words effectively, encompassing reading, writing, speaking, and manipulating language structures. This is a primary domain of strength for LLMs.6
+* Logical-Mathematical Intelligence: The ability to analyze problems logically, carry out mathematical operations, and investigate issues scientifically. This is another core competency of LLMs and is heavily measured in traditional IQ tests.6
+* Spatial-Visual Intelligence: The ability to perceive the visual world accurately and perform transformations upon one's initial perceptions. This is relevant to the capabilities of multimodal models like GPT-4V.5
+* Bodily-Kinesthetic Intelligence: The potential of using one's whole body or parts of the body to solve problems or create products. This is a critical area of human intelligence that is entirely absent in disembodied AI systems.5
+* Musical Intelligence: Skill in the performance, composition, and appreciation of musical patterns.4
+* Interpersonal Intelligence: The capacity to understand the intentions, motivations, and desires of other people and to work effectively with others. This relates to social and emotional intelligence.5
+* Intrapersonal Intelligence: The capacity to understand oneself, to have an effective working model of oneself, and to use such information effectively in regulating one's own life. This involves self-awareness and introspection.5
+* Naturalistic Intelligence: The ability to recognize, categorize, and draw upon features of the natural environment.4
+Gardner later proposed a ninth, Existential Intelligence, which involves the capacity to tackle deep questions about human existence.5 This multi-faceted view provides a crucial lens for analysis, preventing the oversimplification inherent in a single intelligence metric.
+
+
+Sternberg's Triarchic Theory of Intelligence
+
+
+Psychologist Robert Sternberg proposed another influential model, the triarchic theory of intelligence, which posits three distinct but interrelated types of intelligence that together contribute to what he terms "successful intelligence"—the ability to achieve success in life within one's sociocultural context.10 This theory is especially valuable for assessing the practical, real-world applicability of an intelligent agent. The three components are 9:
+1. Analytical Intelligence: This component aligns closely with academic problem-solving and the abilities measured by traditional IQ tests. It involves the mental processes used to analyze, evaluate, judge, compare, and contrast information.9 This is the form of intelligence most readily demonstrated by LLMs on standardized benchmarks.
+2. Creative Intelligence: This component is marked by the ability to deal with novel situations, invent new solutions, and imagine new possibilities. It involves applying existing knowledge to new problems in innovative ways.9
+3. Practical Intelligence: Often described as "street smarts" or common sense, this component involves the ability to apply, use, and implement ideas in everyday, real-world contexts. It is the intelligence of adaptation to, shaping of, and selection of one's environment.11 This domain represents a core strength of human cognition and a significant, persistent weakness for AI.
+
+
+The Nature of Artificial Cognition in LLMs: Simulation vs. Understanding
+
+
+The intelligence demonstrated by GPT models arises from a fundamentally different substrate and process than human intelligence. Understanding this difference is key to a valid comparison.
+
+
+Core Architecture and Scaling Laws
+
+
+The GPT series of models are based on the Transformer architecture, a type of deep neural network that uses a mechanism called "attention" to weigh the importance of different words in an input sequence.13 They are pre-trained on an immense corpus of text and, in the case of multimodal models like GPT-4, image data.14 Their fundamental task is simple: to predict the next "token" (a word or part of a word) in a sequence.14 The remarkable capabilities of these models are an emergent property of this simple objective, scaled to an enormous degree. GPT-3, for instance, has 175 billion parameters and was trained on hundreds of billions of tokens from sources like Common Crawl, WebText2, and Wikipedia.13
+OpenAI's technical report on GPT-4 is notably sparse on architectural details like model size, citing competitive and safety reasons.15 However, it confirms that GPT-4 is a large-scale, multimodal, Transformer-based model.14 A core focus of the GPT-4 project was developing a deep learning stack that scales predictably, allowing its performance to be reliably forecasted based on smaller models trained with 1,000 to 10,000 times less compute.15 This confirms that the observed leap in capabilities from GPT-3 to GPT-4 is a direct result of successfully executing on these scaling laws—building a larger model, training it on more data, and leveraging more computational power.
+
+
+The Philosophical Divide: Syntax vs. Semantics
+
+
+The impressive fluency of LLMs raises a foundational philosophical question: do these systems truly understand the language they process, or do they merely simulate understanding? This is captured by philosopher John Searle's famous "Chinese Room Argument".18 The thought experiment imagines a person who does not speak Chinese locked in a room with a set of rules (a program). When Chinese characters (input) are passed into the room, the person follows the rules to manipulate the symbols and produce other Chinese characters (output). To an outside observer, the room appears to understand Chinese. However, the person inside has no semantic understanding of the symbols; they are merely manipulating syntax according to a formal set of rules.18
+This argument is directly applicable to LLMs. Their ability to predict the next token is a syntactic operation based on statistical patterns in their training data. Whether this sophisticated pattern-matching gives rise to genuine semantic understanding remains a central, unresolved debate.16 This distinction frames the entire comparative analysis: we are evaluating systems whose core mechanism is fundamentally different from the biological and experiential basis of human comprehension.
+
+
+Known Architectural Limitations
+
+
+The disembodied, data-driven nature of LLMs imposes several inherent limitations that starkly differentiate their cognition from that of humans:
+* Lack of Embodiment and Grounding: LLMs have no body, no senses, and no direct interaction with the physical world. Their "knowledge" is not grounded in sensory experience. This severely restricts their capacity for practical intelligence and reasoning about naive physics—concepts that humans learn through physical interaction.19
+* Static Knowledge Base: Unlike humans who learn continuously, a pre-trained model's knowledge is a static snapshot of its training data.15 It does not update its world model based on new interactions or information, a limitation that can lead to outdated or incorrect responses.
+* Hallucinations and Unreliability: Because LLMs are generative systems optimized for probabilistic coherence rather than factual accuracy, they are prone to "hallucinating"—inventing facts, sources, and details with the same confident tone as they state correct information. This unreliability is a persistent issue, reduced but not eliminated in GPT-4, and poses significant risks in high-stakes contexts.14
+The very frameworks used to describe human intelligence—which emphasize interaction with physical and social environments (Gardner's Bodily-Kinesthetic and Interpersonal intelligences) and adaptation to real-world contexts (Sternberg's Practical Intelligence)—are mismatched with the disembodied, text-bound reality of LLM cognition. Applying these human frameworks to AI is therefore not a direct mapping of faculties but rather a projection used to assess which human-like tasks a model can perform. In humans, different intelligences are often correlated through the g factor; in AI, there is no such guarantee. An AI can exhibit superhuman analytical ability in a domain like law while possessing virtually zero practical intelligence, a cognitive profile alien to the integrated nature of the human mind.
+
+
+Section 2: Quantitative Analysis: Performance in Controlled Environments
+
+
+To ground the comparison of intelligence in empirical evidence, this section analyzes the performance of the GPT series and humans on a wide range of standardized, controlled tests. These quantitative benchmarks, while imperfect, provide a valuable measure of specific cognitive abilities. The analysis is divided into two parts: performance on examinations originally designed for humans, and performance on benchmarks created specifically to test the limits of AI systems. A critical perspective is maintained throughout, scrutinizing the validity of these tests as true measures of intelligence and noting potential confounding factors.
+
+
+Aptitude on Human-Centric Examinations: The Illusion of Parity?
+
+
+One of the most striking indicators of LLM progress has been their rapidly improving performance on professional and academic exams that have long served as gatekeepers for high-level human expertise.
+
+
+GPT-3: Nascent but Inconsistent Performance
+
+
+The GPT-3 generation of models demonstrated early but highly variable capabilities on such tests. In one study, GPT-3 performed comparably to college undergraduates on reasoning problems analogous to those on the SAT, even solving 80% of Raven's Progressive Matrices-style problems correctly, above the human average of just under 60%.19 However, its performance on more rigorous professional exams was generally poor. For instance, early versions of GPT-3.5 performed below the passing threshold on German medical licensing exams and scored in the bottom 10% on a simulated Uniform Bar Exam.23 Its performance was highly dependent on the specific knowledge domain and question type, with one analysis finding 92.8% accuracy on coding questions but only 33.4% on database management systems questions.24 This inconsistency highlighted its limitations as a reliable tool for expert-level tasks.
+
+
+The GPT-4 Leap: Achieving Expert-Level Proficiency
+
+
+The release of GPT-4 marked a significant inflection point, with the model demonstrating a qualitative leap to human-level, and often top-tier, performance across a vast array of demanding examinations.8 This dramatic improvement showcased the efficacy of OpenAI's scaling laws, transforming the model from an inconsistent performer into a formidable test-taker.
+* Legal and Graduate Admissions: GPT-4 passed a simulated Uniform Bar Exam with a score estimated to be in the 90th percentile, a stark contrast to GPT-3.5's 10th percentile score.8 It also achieved an 88th percentile score on the LSAT, a 99th percentile score on the GRE Verbal section, and an 80th percentile score on the GRE Quantitative section.8
+* Medical and Biomedical Sciences: The model's medical proficiency proved to be robust. It passed the United States Medical Licensing Examination (USMLE) with scores approximately 20 percentage points above the pass threshold.21 In a study using German medical licensing exams, GPT-4 achieved an average score of 85%, placing it in the 92nd to 99th percentile relative to medical students who took the same exams.23 Furthermore, when tested on nine graduate-level final examinations in the biomedical sciences, GPT-4's scores exceeded the student average in seven cases and surpassed all student scores in four of the courses.21
+* STEM and Other Disciplines: This high-level performance extended across other specialized fields. GPT-4 outperformed average human scores on the USA Biology Olympiad and the US National Chemistry Olympiad.25 It also demonstrated superior performance in exams covering plastic surgery, radiation oncology, and engineering.27
+
+
+GPT-5: The Trajectory of Refinement
+
+
+While GPT-5 is not yet publicly released, pre-release announcements and benchmark data suggest it will continue this trajectory of improvement, pushing further into the upper echelons of specialized knowledge and reasoning. OpenAI has stated that GPT-5 is "much smarter across the board" and sets a new state of the art in several key areas.28 Projections highlight exceptional performance in highly complex domains:
+* Advanced Mathematics: GPT-5 is projected to score 94.6% on the AIME 2025, a challenging high-school mathematics competition, without the use of external tools.28
+* Expert-Level Coding: It is expected to achieve 74.9% on SWE-bench Verified, a benchmark that involves resolving real-world GitHub issues.28
+* Health and Medicine: GPT-5 is advertised as OpenAI's best model for health-related questions, scoring 46.2% on the HealthBench Hard benchmark, which evaluates responses to difficult medical cases.28
+
+
+Critical Scrutiny of Examination Performance
+
+
+These impressive results, while indicative of powerful capabilities, must be interpreted with significant caution. Several confounding factors challenge the direct equation of high test scores with human-like intelligence.
+First, the issue of data contamination is a persistent concern. While OpenAI states that only a minority of exam problems were seen by the models during training, the proprietary nature of the training datasets makes independent verification impossible.8 The possibility that models are, in part, retrieving answers to questions they have already seen cannot be fully dismissed.
+Second, the validity of percentile rankings can be misleading. A detailed re-evaluation of GPT-4's widely publicized 90th percentile Bar Exam score found that this figure was likely inflated by comparing the model to a skewed population of repeat test-takers. When compared against only first-time test-takers, GPT-4's estimated performance drops to the 62nd-69th percentile overall, and when compared only against those who successfully passed the exam (i.e., licensed attorneys), its performance on the essay portion plummets to an estimated 15th percentile.29 This demonstrates how sensitive these claims are to the chosen reference group.
+Third, and most fundamentally, LLMs take these exams with an inherent "open-book" advantage. For a human, a closed-book exam tests not only knowledge but also the ability to recall and reason under pressure. For an LLM, whose parameters are a compressed representation of a significant portion of the internet, the exam is effectively an open-book test of knowledge retrieval and synthesis.29 This difference in testing conditions makes a direct comparison of scores problematic.
+The following table summarizes the performance of the GPT series on key human-centric examinations.
+Table 1: Performance on Professional & Academic Examinations
+
+
+Exam / Test
+	Human Baseline
+	GPT-3.5 Score / Percentile
+	GPT-4 Score / Percentile
+	GPT-5 (Projected) Score / Percentile
+	Notes
+	Uniform Bar Exam
+	Passing Score
+	~213/400 (~10th)
+	~298/400 (~90th)
+	> GPT-4
+	Percentile may be inflated; re-evaluation suggests ~62nd-69th vs. first-time takers.8
+	LSAT
+	Median: ~152
+	149 (~40th)
+	163 (~88th)
+	> GPT-4
+	Tests reading comprehension and logical reasoning.8
+	GRE Verbal
+	Mean: ~150
+	154 (~63rd)
+	169 (~99th)
+	> GPT-4
+	Demonstrates exceptional command of vocabulary and text analysis.8
+	GRE Quantitative
+	Mean: ~153
+	147 (~25th)
+	163 (~80th)
+	> GPT-4
+	Significant improvement over GPT-3.5 but still lags verbal performance.8
+	SAT Math
+	Mean: ~528
+	590/800 (~70th)
+	700/800 (~89th)
+	> GPT-4
+	Strong mathematical reasoning at the pre-college level.8
+	US Medical Licensing Exam (USMLE)
+	Passing Score: ~60%
+	~50% (Near Pass)
+	>75% (Comfortable Pass)
+	Higher Accuracy
+	Passed all three steps of the exam without specialized training.21
+	German Medical Exam
+	Student Mean: 76%
+	58% (Fail)
+	85% (~92nd-99th)
+	Higher Accuracy
+	Outperformed the vast majority of human medical students.23
+	AIME 2025 (Math Olympiad)
+	Highly selective
+	N/A
+	N/A
+	94.6%
+	State-of-the-art performance on a highly challenging math competition.28
+	
+
+Performance on Machine-Native Benchmarks: A Tale of Two Capabilities
+
+
+In addition to human exams, LLMs are evaluated on benchmarks designed specifically by the AI research community to probe the limits of machine intelligence. Performance on these tests reveals a stark divide between knowledge-based reasoning and abstract, fluid reasoning.
+
+
+MMLU (Massive Multitask Language Understanding)
+
+
+The MMLU benchmark is a comprehensive test of broad, world knowledge, consisting of multiple-choice questions across 57 subjects ranging from elementary mathematics to professional law and medicine.31 It was designed to be more challenging than previous benchmarks and to require deeper knowledge and reasoning skills.31
+* Performance Trajectory: When MMLU was released in 2020, most models scored near random chance (25%). The best model at the time, GPT-3, achieved 43.9% accuracy.32 Performance improved significantly with GPT-3.5, which scored 70.0%.8 GPT-4 made another major leap, achieving 86.4%, which approaches the estimated human expert accuracy of 89.8%.8 The performance of GPT-5 on multilingual versions of MMLU is described as being largely on par with previous state-of-the-art models, suggesting that capabilities in this area may be approaching a plateau or the limits of the benchmark itself.35
+* Benchmark Limitations: Recent analysis has revealed significant data quality issues within MMLU. An estimated 6.5% of questions in the benchmark contain errors, such as having incorrect answers or multiple correct options. Some subjects are particularly flawed; for example, 57% of questions in the "Virology" subset were found to be erroneous.32 This suggests the practical ceiling for accuracy on the benchmark is well below 100%, and top models like GPT-4 are approaching this limit.
+
+
+HellaSwag (Commonsense Natural Language Inference)
+
+
+HellaSwag tests commonsense reasoning by presenting a short context and asking the model to choose the most plausible of four possible endings.36 The incorrect options are adversarially generated to be tricky for AI models but trivial for humans.
+* Performance Trajectory: Early models struggled mightily with HellaSwag, scoring below 50% while humans easily achieve over 95% accuracy.36 The GPT series showed dramatic improvement, with GPT-3.5 scoring 85.5%.8 GPT-4 effectively "solved" the benchmark, achieving 95.3% accuracy, on par with the human baseline.8
+* Benchmark Limitations: Like MMLU, the validity of HellaSwag has been questioned. Research indicates that models may be exploiting superficial cues and statistical biases in the dataset rather than engaging in true commonsense reasoning.36 One study found that 36% of the validation set contains errors, ambiguities, or ungrammatical sentences, which complicates the interpretation of high scores.40
+
+
+ARC (Abstraction and Reasoning Corpus)
+
+
+Perhaps the most telling benchmark is ARC, which is designed to measure a pure form of fluid intelligence.42 It consists of novel visual puzzles where the solver must infer an abstract transformation rule from a few input-output examples and apply it to a new input. The tasks are easy for humans but have proven exceptionally difficult for AI systems because they cannot be solved by retrieving information from training data.43
+* Performance Trajectory: The performance of LLMs on ARC has been persistently poor, highlighting a fundamental gap with human cognition. GPT-3 scored 0% on the benchmark.42 Despite its vast capabilities in other areas, GPT-4 also performs very badly; initial zero-shot evaluations showed only 7% accuracy, and even the more advanced GPT-4o, when used in complex, engineered pipelines, has struggled to exceed 5-10% on its own.46 Early results for GPT-5 on the more difficult ARC-AGI-2 benchmark show a score of only 9.9%.49
+* Human Baseline: In stark contrast, human performance on ARC is very high. A comprehensive study found that average human crowd-workers achieve 64.2% accuracy on the public evaluation set.43 Critically, 98.8% of all tasks in the benchmark were solved by at least one human participant, indicating that the problems are well within the scope of typical human fluid reasoning abilities.43
+The vast performance chasm between knowledge-intensive benchmarks like MMLU and fluid-reasoning benchmarks like ARC is perhaps the most significant finding in the quantitative analysis of AI intelligence. While LLMs have become masters of crystallized intelligence, effectively encoding and manipulating the vast knowledge of human civilization, they remain novices at the kind of abstract, from-scratch reasoning that is a cornerstone of human intelligence.
+The following table summarizes the performance of the GPT series and humans on these core AI/ML benchmarks.
+Table 2: Performance on Core AI/ML Benchmarks vs. Human Baselines
+
+
+Benchmark
+	Skill Tested
+	Human Baseline
+	GPT-3 / 3.5 Score
+	GPT-4 Score
+	GPT-5 Score
+	MMLU
+	Broad Multitask Knowledge
+	Expert: ~89.8% 32
+	43.9% / 70.0% 8
+	86.4% 8
+	On par with SOTA 35
+	HellaSwag
+	Commonsense Inference
+	~95.6% 36
+	85.5% (GPT-3.5) 8
+	95.3% 8
+	> GPT-4
+	ARC
+	Abstract Fluid Reasoning
+	Average: ~64.2% 43
+	0% 45
+	<10% 47
+	~9.9% (ARC-AGI-2) 49
+	
+
+Section 3: Qualitative Analysis: Assessing Higher-Order Cognitive Functions
+
+
+While quantitative benchmarks provide essential data points, they often fail to capture the full texture and depth of intelligence. Many of the abilities most central to human cognition—such as genuine creativity, nuanced emotional understanding, and robust practical common sense—are difficult to assess with multiple-choice questions. This section delves into a qualitative analysis of these higher-order functions, revealing a consistent pattern: while GPT models can produce outputs that are syntactically and stylistically impressive, they often lack the underlying semantic understanding, subjective experience, and grounded world model that inform human intelligence.
+
+
+Creativity: Generation vs. Origination
+
+
+The capacity for creativity has long been considered a uniquely human domain. However, the advent of powerful generative AI has challenged this notion, forcing a distinction between the generation of novel combinations and the origination of truly new ideas rooted in experience and intent.
+On standardized tests of divergent thinking, which measure the ability to generate multiple solutions to an open-ended problem, GPT-4 has demonstrated extraordinary capabilities. In a study using the Torrance Tests of Creative Thinking (TTCT), a widely used assessment, GPT-4's responses placed it in the top 1% of human thinkers for fluency (the number of ideas generated) and originality (the statistical rarity of the ideas).51 It also scored in the 97th percentile for flexibility (the ability to generate ideas across different categories).51 Other studies corroborate these findings, showing that AI can outperform humans on divergent thinking tasks.53
+However, these quantitative successes do not tell the whole story. When human judges evaluate creative products, a different picture emerges. Studies consistently show that artworks, stories, or ideas are rated more highly when they are attributed to a human creator, even if the work itself is identical to one attributed to an AI.54 This suggests that human evaluation of creativity is deeply intertwined with the perceived intentionality, emotional depth, and lived experience of the creator—qualities that AI lacks.55 While AI's creativity is combinatorial, drawing novel connections from the vast patterns in its training data, human creativity is experiential, drawing from a rich well of emotions, cultural nuances, and personal imagination.57
+In one study that directly compared human and AI performance on the Figural Interpretation Quest (FIQ), a task requiring creative interpretations of ambiguous visual figures, the results were telling. While GPT-4 demonstrated higher flexibility on average (generating a wider variety of idea categories), human participants excelled in subjectively perceived creativity. Furthermore, the most creative human responses surpassed the AI's best efforts in both flexibility and subjective quality.58 The AI can generate a vast quantity of statistically novel ideas, but humans remain unmatched in producing the highest-quality, most resonant, and subjectively compelling creative works. The promised enhancements in GPT-5, with its focus on landing a stronger "emotional arc" and using more "striking metaphors," aim to narrow this qualitative gap, but the fundamental difference between statistical generation and experiential origination remains.28
+
+
+Social and Emotional Intelligence: A Persistent Chasm
+
+
+Emotional Intelligence (EI) is the capacity to perceive, understand, manage, and use emotions to facilitate thought and navigate social situations.59 It is a cornerstone of human relationships and effective collaboration. While LLMs can process and generate language related to emotions, their ability to genuinely comprehend the complexities of human affective states is severely limited.
+To move beyond simple sentiment analysis, researchers have developed more robust benchmarks. EmoBench, for example, is a hand-crafted test based on established psychological theories that assesses two core components of EI: Emotional Understanding (EU), which is the ability to identify emotions and their underlying causes in complex scenarios, and Emotional Application (EA), the ability to use that understanding to respond appropriately.59
+Evaluations using EmoBench reveal a substantial and persistent gap between all current LLMs and average human performance. GPT-4, while outperforming its peers, still falls significantly short of the human average. The models find the EU tasks particularly challenging, as they often require deep reasoning about implicit social cues, personal beliefs, and cultural context to infer an individual's mental state.61
+Interestingly, some tests show a more complex picture. One study found that responses from ChatGPT to patient questions were rated by a panel of healthcare professionals as significantly more empathetic than responses written by human physicians.60 This does not necessarily indicate that the AI possesses genuine empathy. Rather, it highlights its proficiency at generating language that follows learned patterns of empathetic communication—using affirming phrases, reflecting stated feelings, and adopting a supportive tone. It is a high-fidelity simulation of empathy.
+Another study using the Situational Evaluation of Complex Emotional Understanding (SECEU) test found that GPT-4 achieved an Emotional Quotient (EQ) score of 117, which would place it above 89% of human participants.63 However, a deeper analysis of the model's response patterns revealed that it arrived at these correct answers through a mechanism that was qualitatively distinct from human reasoning patterns.63 This reinforces the idea of a "hollow core": the AI can produce the correct output, but the internal process by which it does so does not resemble human emotional comprehension. It is solving an emotional reasoning problem as a logical puzzle, not as an act of empathy.
+
+
+Practical Intelligence and Commonsense Reasoning: The Achilles' Heel
+
+
+Practical intelligence, or "street smarts," is the ability to solve ill-defined, everyday problems by adapting to one's environment.11 It relies heavily on a vast repository of implicit knowledge known as
+commonsense reasoning—our intuitive understanding of naive physics (how objects behave), folk psychology (how people think and act), and social norms.20 This knowledge is acquired by humans through years of embodied interaction with the physical and social world, and it remains the most significant and persistent challenge for AI.20
+Despite achieving human-level scores on curated commonsense benchmarks like HellaSwag, LLMs demonstrate a brittle and unreliable grasp of common sense when faced with novel or slightly altered scenarios. Their failures are often baffling to humans because they violate the most basic assumptions about reality.
+* Physical Reasoning Failures: When asked how to eat soup with only a fork, GPT-4 suggested absurd solutions like fashioning a makeshift spoon out of aluminum foil wrapped around the tines, or trying to "scoop and sip" from the fork, alongside more sensible suggestions like drinking from the bowl or asking for a spoon.65 This reveals a lack of a basic physical model of objects and their properties (e.g., a fork's inability to hold liquid).
+* Logical and Contextual Failures: In a classic river-crossing puzzle modified to include a "wide bridge" instead of a small boat, GPT-4 correctly identified that the bridge removes the single-item constraint and that the farmer can walk everyone across at once.66 However, this success is fragile. In other logic problems, GPT-4 has been shown to produce spurious countermodels or fail to follow deductive steps that are straightforward for humans.67 Its reasoning often appears ad-hoc, failing to identify the most salient properties for categorization, for example, not recognizing that an aardvark and a tree branch are both living things when comparing them to an electrical outlet.65
+These failures stem directly from the architectural limitations discussed in Section 1. Without a body, senses, or the ability to act in the world, the AI cannot build a robust, predictive model of reality. It learns about the world only through the lens of text and images, a second-hand knowledge that is a vast but shallow substitute for the deeply ingrained, intuitive understanding that underpins human practical intelligence. The AI's intelligence is a high-fidelity mimicry of human cognitive output, but it is built on a foundation of statistical correlation, not grounded understanding. This "hollow core" means that while it can perform brilliantly on tasks that fall within the patterns of its training, it remains fundamentally unreliable when faced with the novelty and ambiguity of the real world.
+
+
+Section 4: Synthesis and Comparative Estimation
+
+
+By integrating the quantitative performance data from controlled benchmarks with the qualitative assessment of higher-order cognitive functions, a holistic and nuanced picture of comparative intelligence emerges. This section synthesizes these findings to construct a detailed profile for humans and each GPT model, moving beyond a simplistic linear ranking. It further analyzes the trajectory of AI progress to identify which cognitive gaps are likely to close with continued scaling and which may require fundamental architectural innovations.
+
+
+A Comparative Intelligence Profile: Mapping Strengths and Weaknesses
+
+
+The evidence presented throughout this report makes it clear that intelligence is not a monolithic ladder that AI is steadily climbing. Rather, it is a complex landscape of diverse cognitive abilities, where humans and AI models exhibit vastly different topographical profiles. Humans possess a balanced, general-purpose intelligence, while GPT models display a "spiky" profile with superhuman peaks in some domains and deep valleys in others.
+* Humans: The human mind serves as the baseline for general intelligence. Its defining characteristics are adaptability, fluid reasoning, and embodied cognition. Humans excel at solving novel problems, understanding the physical and social world through intuitive models, and generating creative works imbued with subjective meaning and emotional depth. While slower and more prone to error than AI in tasks requiring massive data recall and processing, human intelligence is robust, flexible, and grounded in conscious experience.
+* GPT-3: This model represented a breakthrough in demonstrating that scaled-up language models could produce coherent text and perform a range of zero-shot and few-shot tasks.68 Its intelligence profile was nascent. It showed developing capabilities in linguistic and logical-mathematical tasks but was highly inconsistent and unreliable.24 Its performance on professional exams was generally poor, its grasp of common sense was extremely brittle, and its ability to perform abstract reasoning was non-existent.30
+* GPT-4: This model marks a phase transition from nascent to proficient in many domains of crystallized intelligence. It achieves expert or even superhuman performance on a vast array of academic and professional knowledge tests, effectively functioning as a universal knowledge engine.8 Its linguistic and logical-mathematical abilities are highly advanced. However, its spiky profile is stark. While it matches human performance on some curated commonsense benchmarks, its practical intelligence remains poor. Its emotional intelligence is superficial, and its capacity for genuine, abstract fluid reasoning remains profoundly limited, as evidenced by its continued failure on the ARC benchmark.47
+* GPT-5: Based on available information, GPT-5 represents a model of refinement and specialization. It is projected to push the state of the art even further in domains of expert knowledge like advanced mathematics, coding, and health, demonstrating deeper reasoning within these specialized fields.28 It also aims to improve the qualitative aspects of its outputs, such as creative writing and empathetic communication.28 However, early data from the difficult ARC-AGI-2 benchmark shows only a marginal improvement over GPT-4, suggesting that the fundamental limitations in abstract, fluid reasoning are not being overcome by scale alone and will likely persist.49
+The following matrix provides a synthesized, comparative assessment of these entities across the key facets of intelligence identified in Section 1.
+Table 3: Comparative Intelligence Matrix
+Facet of Intelligence
+	Human Capability
+	GPT-3 / 3.5 Capability
+	GPT-4 Capability
+	GPT-5 (Projected) Capability
+	Analytical / g-Factor
+	
+
+	
+
+	
+
+	
+
+	Fluid Reasoning (Novel Problems)
+	Expert
+	Nascent (Fails ARC)
+	Nascent (Fails ARC, <10%)
+	Developing (Fails ARC-AGI-2, ~9.9%)
+	Crystallized Knowledge
+	Expert
+	Developing (Variable)
+	Superhuman (MMLU 86.4%)
+	Superhuman+ (SOTA on GPQA)
+	Quantitative Reasoning
+	Expert
+	Developing (GRE-Q 25th)
+	Expert (GRE-Q 80th)
+	Superhuman (AIME 94.6%)
+	Working Memory
+	Proficient (Limited)
+	N/A (Large Context)
+	N/A (Large Context)
+	N/A (Very Large Context)
+	Gardner's Multiple Intelligences
+	
+
+	
+
+	
+
+	
+
+	Linguistic
+	Expert
+	Proficient
+	Superhuman (GRE-V 99th)
+	Superhuman+
+	Logical-Mathematical
+	Expert
+	Developing
+	Expert (Bar 90th)
+	Superhuman (SOTA in Math/Coding)
+	Spatial-Visual
+	Expert
+	N/A
+	Proficient (Multimodal)
+	Expert (MMMU 84.2%)
+	Bodily-Kinesthetic
+	Expert
+	Non-existent
+	Non-existent
+	Non-existent
+	Interpersonal (Social)
+	Expert
+	Nascent
+	Developing (Fails EmoBench)
+	Developing+ (Improved empathy simulation)
+	Intrapersonal (Self-Awareness)
+	Expert
+	Non-existent
+	Non-existent
+	Non-existent
+	Sternberg's Triarchic Intelligences
+	
+
+	
+
+	
+
+	
+
+	Analytical
+	Expert
+	Proficient
+	Superhuman (Excels on exams)
+	Superhuman+
+	Creative (Divergent)
+	Expert
+	Developing
+	Superhuman (Top 1% on TTCT)
+	Superhuman+
+	Creative (Subjective Quality)
+	Expert
+	Nascent
+	Developing (Lacks depth)
+	Proficient (Improved emotional arc)
+	Practical (Commonsense)
+	Expert
+	Nascent (Brittle)
+	Developing (Brittle, fails novel tests)
+	Developing (Still brittle)
+	
+
+The Trajectory of Progress and Persistent Gaps
+
+
+The evolution from GPT-3 to GPT-5 reveals a clear and powerful trend driven by scaling laws. As confirmed by OpenAI, the performance of LLMs on many tasks improves predictably with increases in model size, dataset size, and computational power.15 The dramatic jump in scores on professional exams and knowledge-based benchmarks between GPT-3.5 and GPT-4 is a direct testament to this principle. This trajectory suggests that capabilities rooted in crystallized intelligence—knowing facts, synthesizing text, and applying learned procedures—will continue to improve and will likely reach superhuman levels across nearly all knowledge domains.
+However, the data also reveals a countervailing trend of persistent, and perhaps fundamental, gaps in other areas of intelligence. The progress on abstract fluid reasoning, as measured by ARC, has been nearly flat over multiple generations of models that have seen exponential gains elsewhere. The improvement from GPT-3's 0% to GPT-5's sub-10% score on ARC variants is negligible compared to the 80-percentile-point leap on the Bar Exam.8
+This divergence suggests that some cognitive abilities are emergent properties of scale within the current Transformer paradigm, while others are not. True abstraction, robust commonsense, and deep emotional understanding may not be achievable simply by making the models bigger or training them on more text. These persistent gaps point toward a potential "wall" for the current architectural paradigm. Overcoming this wall may require fundamental shifts in AI research, potentially incorporating new architectures that are not solely based on next-token prediction, or paradigms that allow for embodiment, environmental interaction, and causal model-building. The comparison of these models, therefore, is not just an assessment of their current state but also a diagnostic tool revealing the future path—and potential dead ends—of AI development.
+
+
+Section 5: Conclusion and Forward-Looking Analysis
+
+
+The comprehensive analysis conducted in this report, leveraging established psychological frameworks and extensive empirical data, leads to a nuanced and multi-faceted estimation of the intelligence of GPT models relative to humans. The comparison defies a simple linear ranking and instead reveals two distinct forms of cognition with complementary strengths and fundamental differences. This concluding section synthesizes this verdict and explores its implications for future research and society.
+
+
+A Nuanced Verdict: Specialized Cognitive Tools vs. General Intelligence
+
+
+This report concludes that Large Language Models, including the advanced GPT-4 and the forthcoming GPT-5, are not more or less intelligent than humans. Rather, they represent a powerful, but fundamentally alien, form of intelligence. Their capabilities are best understood not as a replication of human general intelligence, but as a highly specialized form of cognitive processing.
+The defining characteristic of GPT intelligence is its mastery over crystallized knowledge. Through training on vast datasets, these models have encoded a significant portion of human textual and visual culture, creating a knowledge base that is broader and more rapidly accessible than that of any single human. This results in superhuman performance on tasks that rely on the retrieval, synthesis, and application of learned information, as demonstrated by their exceptional scores on professional exams and knowledge-intensive benchmarks.
+However, this proficiency is built on a foundation of statistical pattern-matching, not genuine, grounded understanding. This leads to the "hollow core" phenomenon observed throughout this analysis:
+* Performance without Understanding: The models can pass the Bar Exam but fail to solve simple, novel logic puzzles. They exhibit a syntactic mastery that does not equate to semantic comprehension.
+* Creativity without Experience: They can generate a statistically original stream of ideas but lack the subjective depth and emotional resonance that stem from lived experience.
+* Empathy without Feeling: They can produce text that is perceived as empathetic but fail tests of deep emotional reasoning, revealing a simulation of social intelligence rather than its genuine possession.
+* Knowledge without Grounding: They can answer questions about the physical world but lack the intuitive, embodied common sense to reason reliably about it.
+Human intelligence, in contrast, is defined by its generality, adaptability, and grounding in conscious, embodied experience. Its primary strengths lie in fluid reasoning, practical problem-solving, and navigating the complexities of the social and physical world. While far slower and more limited in its capacity for raw data processing, it is robust, flexible, and capable of true abstraction.
+Therefore, the most accurate estimation is that GPT models are not nascent general intelligences but are instead powerful and specialized cognitive tools. They are cognitive prostheses that can augment human intellect in specific domains, much like a calculator augments our ability to perform arithmetic. They are not on a path to becoming "like us," but are evolving along a different axis of capability entirely.
+
+
+Future Research and Societal Implications
+
+
+The findings of this report carry significant implications for the future of AI research and its integration into society.
+First, there is a critical need for better benchmarks. The saturation of knowledge-based tests like MMLU and the questions surrounding the validity of benchmarks like HellaSwag indicate that the field's ability to measure intelligence is lagging behind its ability to build specialized performance. Future research must prioritize the development of more robust evaluations for the very areas where current models fail: abstract fluid reasoning, practical intelligence, and deep social/emotional understanding. The move toward interactive, game-like environments, as seen in ARC-AGI-3, is a promising step in this direction, as it tests for adaptive learning rather than static knowledge.70
+Second, the "spiky" intelligence profile of LLMs has profound societal implications. Deploying systems that are superhuman in some domains but sub-humanly naive in others creates novel risks. Over-reliance on these systems in high-stakes contexts, without human oversight that can compensate for their lack of common sense and grounding, could lead to significant errors. The expert consensus points to a future of immense productivity gains but also carries substantial concerns about job displacement, the proliferation of misinformation, and the potential for misuse by authoritarian actors.71
+Ultimately, the challenge for society is not to prepare for a singular AI that will replace human intelligence, but to learn how to safely and effectively collaborate with a suite of powerful, non-human cognitive tools. This requires fostering a realistic understanding of their capabilities and, more importantly, their fundamental limitations. The path forward lies in leveraging the strengths of both human and artificial intelligence, creating a partnership where the vast knowledge of the machine is guided by the wisdom, grounding, and values of its human creators.
+
+While it's tempting to assign a single intelligence score, a direct numerical comparison of human and AI intelligence is an oversimplification. Human intelligence is a multifaceted construct, encompassing a wide range of cognitive abilities that are not fully captured by standardized tests. However, by analyzing the performance of GPT models on various benchmarks and comparing them to human performance, we can create a detailed and nuanced picture of their relative strengths and weaknesses.
+
+---
+
+## A Note on Measuring Intelligence
+
+Before diving into a direct comparison, it's crucial to understand that there is no single, universally accepted definition or measure of intelligence. Psychologists have proposed various frameworks:
+
+* **Spearman's General Intelligence (g-factor):** This theory suggests a single, underlying general intelligence factor that influences performance on all cognitive tasks.
+* **Gardner's Theory of Multiple Intelligences:** This framework proposes at least eight distinct types of intelligence, including linguistic, logical-mathematical, spatial, musical, bodily-kinesthetic, interpersonal, intrapersonal, and naturalistic.
+* **Sternberg's Triarchic Theory of Intelligence:** This theory categorizes intelligence into three components: analytical (problem-solving), creative (dealing with new situations), and practical (adapting to the environment).
+
+When we compare humans to AI, we are primarily measuring the **analytical** and, to some extent, the **linguistic** and **logical-mathematical** aspects of intelligence. The more nuanced and embodied forms of intelligence remain largely in the human domain.
+
+---
+
+## Quantitative Performance on Standardized Tests
+
+On standardized tests, which primarily measure analytical and reasoning skills, the progress from GPT-3 to GPT-5 has been remarkable. GPT-4, and now GPT-5, have demonstrated performance that is not just comparable to, but in some cases surpasses, the average human test-taker.
+
+| Test/Benchmark          | GPT-3.5 Performance (Percentile) | GPT-4 Performance (Percentile) | GPT-5 (Anticipated) Performance | Average Human Performance |
+| ----------------------- | -------------------------------- | ------------------------------ | ------------------------------- | ------------------------- |
+| **Uniform Bar Exam** | ~10th                            | ~90th                          | Expected to be higher           | ~50th                     |
+| **LSAT** | Not Available                    | ~88th                          | Expected to be higher           | ~50th                     |
+| **SAT (Math & Reading)**| Not Available                    | ~89th (Math), ~93rd (Reading)  | Expected to be higher           | ~50th                     |
+| **GRE (Verbal)** | Not Available                    | 99th                           | Expected to be higher           | ~50th                     |
+| **GRE (Quantitative)** | Not Available                    | 80th                           | Expected to be higher           | ~50th                     |
+| **US Medical Licensing Exam**| ~50th (Step 1)                   | ~75th (Step 1, 2, 3)           | Expected to be higher           | ~50th                     |
+
+**Key Takeaway:** In the realm of standardized tests, GPT-4 has already achieved superhuman performance in many areas. GPT-5 is expected to widen this gap further. However, these tests are designed to measure a specific type of intelligence, and they do not encompass the full spectrum of human cognitive abilities.
+
+---
+
+## Performance on AI-Specific Benchmarks
+
+AI researchers have developed specific benchmarks to test the limits of language models. These benchmarks often focus on reasoning, common sense, and knowledge.
+
+| Benchmark                                       | Human Performance | GPT-3 Performance | GPT-4 Performance | GPT-5 Performance |
+| ----------------------------------------------- | ----------------- | ----------------- | ----------------- | ----------------- |
+| **MMLU (Massive Multitask Language Understanding)** | ~89.8% (Expert)   | 43.9%             | 86.4%             | 94.4%             |
+| **HellaSwag (Commonsense Inference)** | ~95.6%            | 78.9%             | 95.3%             | Not Available     |
+| **ARC (AI2 Reasoning Challenge)** | ~64.2% (Eval set) | ~20%              | ~50%              | 65.7% (ARC-AGI-1) |
+
+**Key Takeaway:** While GPT-3 showed promising but limited capabilities, GPT-4 demonstrated a significant leap, approaching human-level performance on some benchmarks. The initial data for GPT-5 suggests another substantial jump, with performance exceeding human experts on MMLU and approaching human performance on the challenging ARC benchmark.
+
+---
+
+## Qualitative Intelligence: The Human Advantage?
+
+While AI models are excelling in quantitative measures, the more qualitative aspects of intelligence still highlight a significant gap between humans and machines.
+
+### Creativity
+
+* **AI's Strengths:** AI can generate novel text, images, and music that are often indistinguishable from human creations. In a 2023 study, ChatGPT-4 performed at the top 1% on the Torrance Tests of Creative Thinking, a standard measure of creativity.
+* **Human Advantage:** Human creativity is deeply intertwined with subjective experience, emotions, and consciousness. AI can emulate creative styles and generate novel combinations, but it lacks the lived experience that often fuels true artistic expression.
+
+### Emotional Intelligence
+
+* **AI's Strengths:** Modern LLMs are becoming increasingly adept at recognizing and responding to human emotions in text. The EmoBench benchmark, designed to measure emotional intelligence in AI, shows significant progress in this area.
+* **Human Advantage:** There is a considerable gap between an AI's ability to process and respond to emotional cues and the genuine empathy and understanding that form the basis of human emotional intelligence.
+
+### Common Sense and Embodied Cognition
+
+* **AI's Strengths:** LLMs have a vast repository of text data, which allows them to "know" a great deal about the world and make commonsense inferences in many situations.
+* **Human Advantage:** Much of human common sense is rooted in our physical interaction with the world (embodied cognition). AI models lack this physical grounding, which can lead to a brittle understanding of the world and a failure to grasp truly novel or absurd situations. This is a significant area of ongoing research.
+
+---
+
+## Philosophical Considerations: Are We Measuring the Right Thing?
+
+The "Chinese Room Argument," a thought experiment by philosopher John Searle, questions whether a system that can manipulate symbols according to a set of rules (like an LLM) can truly be said to "understand" the meaning behind those symbols. While GPT models can produce coherent and contextually appropriate responses, it is a matter of ongoing debate whether this constitutes genuine understanding or simply sophisticated pattern matching.
+
+---
+
+## The Trajectory of AI Intelligence
+
+The rate of improvement from GPT-3 to GPT-5 is staggering. The leap in performance that took years to achieve in earlier stages of AI development is now happening in a matter of months. This rapid progress suggests that the gaps in AI's capabilities, even in areas like common sense and reasoning, are likely to narrow significantly in the coming years.
+
+---
+
+## Conclusion: A More Nuanced "Ratio"
+
+Returning to the idea of a normalized ratio, a single number for each model would be misleading. A more accurate representation would be a multi-dimensional one:
+
+| Intelligence Facet       | Human | GPT-3 | GPT-4 | GPT-5 |
+| ------------------------ | ----- | ----- | ----- | ----- |
+| **Analytical Reasoning** | 1.0   | ~0.6  | ~0.9  | >1.0  |
+| **Factual Knowledge** | 1.0   | >1.0  | >1.0  | >1.0  |
+| **Linguistic Ability** | 1.0   | ~0.8  | ~0.95 | >1.0  |
+| **Creativity (Ideation)**| 1.0   | ~0.7  | ~0.9  | ~1.0  |
+| **Emotional Intelligence**| 1.0   | ~0.4  | ~0.6  | ~0.7  |
+| **Common Sense Reasoning**| 1.0   | ~0.5  | ~0.7  | ~0.8  |
+| **Embodied Cognition** | 1.0   | 0.0   | 0.0   | 0.0   |
+
+***Disclaimer:*** *These ratios are estimations based on the available research and are intended to be illustrative rather than definitive. The field of AI is evolving rapidly, and these comparisons are subject to change.*
+
+In conclusion, while the latest AI models have surpassed average human performance in specific, measurable domains of intelligence, they still lag behind in the more holistic, embodied, and emotionally resonant aspects of what it means to be intelligent. The gap is closing, but for now, human intelligence remains a broader and deeper phenomenon.
+
+
+Works cited
+1. g factor (psychometrics) - Wikipedia, accessed August 15, 2025, https://en.wikipedia.org/wiki/G_factor_(psychometrics)
+2. Theories Of Intelligence In Psychology - Simply Psychology, accessed August 15, 2025, https://www.simplypsychology.org/intelligence.html#:~:text=Spearman's%20General%20Intelligence%20(g),spatial%2C%20numerical%2C%20and%20mechanical.
+3. How General Intelligence (G Factor) Is Determined - Verywell Mind, accessed August 15, 2025, https://www.verywellmind.com/what-is-general-intelligence-2795210
+4. Gardner's Theory Of Multiple Intelligences - Simply Psychology, accessed August 15, 2025, https://www.simplypsychology.org/multiple-intelligences.html#:~:text=Howard%20Gardner's%20Theory%20of%20Multiple,interpersonal%2C%20intrapersonal%2C%20and%20naturalistic.
+5. Howard Gardner's Theory on Multiple Intelligences Definition and Meaning - Top Hat, accessed August 15, 2025, https://tophat.com/glossary/m/multiple-intelligences/
+6. Gardner's Theory of Multiple Intelligences - Brightwheel, accessed August 15, 2025, https://mybrightwheel.com/blog/gardners-theory-of-multiple-intelligences
+7. Using Gardner's Multiple Intelligences Theory - Waterford.org, accessed August 15, 2025, https://www.waterford.org/blog/multiple-intelligences-theory/
+8. GPT-4 - OpenAI, accessed August 15, 2025, https://openai.com/index/gpt-4-research/
+9. What Is Intelligence? – General Psychology - UCF Pressbooks, accessed August 15, 2025, https://pressbooks.online.ucf.edu/lumenpsychology/chapter/what-are-intelligence-and-creativity/
+10. Understanding the Triarchic Theory of Intelligence - ThoughtCo, accessed August 15, 2025, https://www.thoughtco.com/triarchic-theory-of-intelligence-4172497#:~:text=The%20triarchic%20theory%20of%20intelligence%20proposes%20three%20distinct%20types%20of,on%20human%20intelligence%20and%20creativity.
+11. The Effectiveness of Triarchic Teaching and Assessment | The National Research Center on the Gifted and Talented (1990-2013), accessed August 15, 2025, https://nrcgt.uconn.edu/newsletters/spring002/
+12. Triarchic Theory of Intelligence - (AP Psychology) - Vocab, Definition, Explanations, accessed August 15, 2025, https://library.fiveable.me/key-terms/ap-psych/triarchic-theory-of-intelligence
+13. GPT-3 - Wikipedia, accessed August 15, 2025, https://en.wikipedia.org/wiki/GPT-3
+14. GPT-4 Technical Report - arXiv, accessed August 15, 2025, https://arxiv.org/html/2303.08774v6
+15. GPT-4 Technical Report | OpenAI, accessed August 15, 2025, https://cdn.openai.com/papers/gpt-4.pdf
+16. OpenAI's GPT-3 Language Model: A Technical Overview - Lambda, accessed August 15, 2025, https://lambda.ai/blog/demystifying-gpt-3
+17. OpenAI's GPT-3 Language Model: A Technical Overview - Lambda, accessed August 15, 2025, https://lambda.ai/blog/demystifying-gpt-3/
+18. Exploring the Connection of Philosophy and Artificial Intelligence ..., accessed August 15, 2025, https://www.apu.apus.edu/area-of-study/arts-and-humanities/resources/exploring-the-connection-of-philosophy-and-artificial-intelligence/
+19. GPT-3 Performs About As Well as a College Student | Technology ..., accessed August 15, 2025, https://www.technologynetworks.com/informatics/news/gpt-3-performs-about-as-well-as-a-college-student-377091
+20. Commonsense reasoning - Wikipedia, accessed August 15, 2025, https://en.wikipedia.org/wiki/Commonsense_reasoning
+21. The model student: GPT-4 performance on graduate biomedical ..., accessed August 15, 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC10920673/
+22. Peer review of GPT-4 technical report and systems card - PMC, accessed August 15, 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC10795998/
+23. Comparison of the Performance of GPT-3.5 and GPT-4 With That of Medical Students on the Written German Medical Licensing Examination: Observational Study - PMC, accessed August 15, 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC10884900/
+24. Generative AI Takes a Statistics Exam: A Comparison of Performance between ChatGPT3.5, ChatGPT4, and ChatGPT4o-mini - arXiv, accessed August 15, 2025, https://arxiv.org/html/2501.09171v1
+25. GPT-4 Exam Performance vs Average Students | SwipeFile, accessed August 15, 2025, https://swipefile.com/gpt-4-exam-performance-vs-average-students
+26. GPT-4 passes basically every exam. And doesn't just pass... The Bar Exam: 90% LSAT: 88% GRE Quantitative: 80%, Verbal: 99% Every AP, the SAT... (Notice they don't include the gmat) : r/MBA - Reddit, accessed August 15, 2025, https://www.reddit.com/r/MBA/comments/11rg9ra/gpt4_passes_basically_every_exam_and_doesnt_just/
+27. Breakdown of GPT-4's Proficiency in Various Disciplines: Unpacking the Latest Academic Findings : r/ChatGPTPro - Reddit, accessed August 15, 2025, https://www.reddit.com/r/ChatGPTPro/comments/146pwfi/breakdown_of_gpt4s_proficiency_in_various/
+28. Introducing GPT-5 - OpenAI, accessed August 15, 2025, https://openai.com/index/introducing-gpt-5/
+29. Re-evaluating GPT-4's bar exam performance - Institute for Law & AI, accessed August 15, 2025, https://law-ai.org/re-evaluating-gpt-4s-bar-exam-performance/
+30. Chat GPT passes professional exams - Kaggle, accessed August 15, 2025, https://www.kaggle.com/discussions/general/381017
+31. What is MMLU? LLM Benchmark Explained and Why It Matters - DataCamp, accessed August 15, 2025, https://www.datacamp.com/blog/what-is-mmlu
+32. MMLU - Wikipedia, accessed August 15, 2025, https://en.wikipedia.org/wiki/MMLU
+33. open-llm-leaderboard/open_llm_leaderboard · Scores of GPT3.5 and GPT4 for comparison - Hugging Face, accessed August 15, 2025, https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard/discussions/30
+34. Exploring MMLU Benchmark for AI Models - Galileo AI, accessed August 15, 2025, https://galileo.ai/blog/mmlu-benchmark
+35. OpenAI Launches GPT‑5 and Multilingual Performance Shows Little Improvement - Slator, accessed August 15, 2025, https://slator.com/openai-launches-gpt5/
+36. HellaSwag: Understanding the LLM Benchmark for Commonsense Reasoning, accessed August 15, 2025, https://graphlogic.ai/blog/utilities/hellaswag-understanding-the-llm-benchmark-for-commonsense-reasoning/
+37. HellaSwag: Can a Machine Really Finish Your Sentence? (ACL 2019), accessed August 15, 2025, https://rowanzellers.com/hellaswag/
+38. HellaSwag: Understanding the LLM Benchmark for Commonsense Reasoning - Deepgram, accessed August 15, 2025, https://deepgram.com/learn/hellaswag-llm-benchmark-guide
+39. Here are some benchmarks, excellent to see that an open model is approaching (an... | Hacker News, accessed August 15, 2025, https://news.ycombinator.com/item?id=36778932
+40. HellaSwag or HellaBad? 36% of this popular LLM benchmark contains errors - Surge AI, accessed August 15, 2025, https://www.surgehq.ai/blog/hellaswag-or-hellabad-36-of-this-popular-llm-benchmark-contains-errors
+41. What the HellaSwag? On the Validity of Common-Sense Reasoning Benchmarks - arXiv, accessed August 15, 2025, https://arxiv.org/html/2504.07825v1
+42. OpenAI's o3 AI model smashes the ACI-AGI benchmark tests - Matthew Griffin, accessed August 15, 2025, https://www.fanaticalfuturist.com/2025/01/openais-o3-ai-model-smashes-the-aci-agi-benchmark-tests/
+43. H-ARC: A Robust Estimate of Human Performance on the Abstraction and Reasoning Corpus Benchmark | alphaXiv, accessed August 15, 2025, https://www.alphaxiv.org/overview/2409.01374v1
+44. H-ARC: A Robust Estimate of Human Performance on the Abstraction and Reasoning Corpus Benchmark - arXiv, accessed August 15, 2025, https://arxiv.org/html/2409.01374v1
+45. ARC Prize 2024: Technical Report - arXiv, accessed August 15, 2025, https://arxiv.org/html/2412.04604v2
+46. Guide - ARC Prize, accessed August 15, 2025, https://arcprize.org/guide
+47. GPT-4 and the ARC Challenge - OpenAI Community Forum, accessed August 15, 2025, https://community.openai.com/t/gpt-4-and-the-arc-challenge/168955
+48. OpenAI details o3 reasoning model with record-breaking benchmark scores - SiliconANGLE, accessed August 15, 2025, https://siliconangle.com/2024/12/20/openai-details-o3-reasoning-model-record-breaking-benchmark-scores/
+49. Grok 4 edges out GPT-5 in complex reasoning benchmark ARC-AGI - The Decoder, accessed August 15, 2025, https://the-decoder.com/grok-4-edges-out-gpt-5-in-complex-reasoning-benchmark-arc-agi/
+50. OpenAI announces that GPT-5 scored 69% on ARC-AGI-2 - Reddit, accessed August 15, 2025, https://www.reddit.com/r/agi/comments/1mk75ry/openai_announces_that_gpt5_scored_69_on_arcagi2/
+51. AI Matches Top 1% of Human Thinkers in Creative Test, New Study Claims - Tech Times, accessed August 15, 2025, https://www.techtimes.com/articles/293501/20230706/ai-matches-top-1-human-thinkers-creative-test-new-study.htm
+52. Can AI-Driven Innovation Outperform Human Creativity? - Vistage, accessed August 15, 2025, https://www.vistage.com/research-center/business-operations/business-technology/20240718-ai-driven-innovation/
+53. AI Outperforms Humans in Standardized Tests of Creative Potential | - Fulbright REVIEW, accessed August 15, 2025, https://fulbrightreview.uark.edu/ai-outperforms-humans-in-standardized-tests-of-creative-potential/
+54. Human creativity versus artificial intelligence: source attribution, observer attitudes, and eye movements while viewing visual art - Frontiers, accessed August 15, 2025, https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2025.1509974/full
+55. www.scirp.org, accessed August 15, 2025, https://www.scirp.org/journal/paperinformation?paperid=140943#:~:text=Critics%20argue%20that%20while%20AI,et%20al.%2C%202023).
+56. AI vs. Human Intelligence - Maryville University Online, accessed August 15, 2025, https://online.maryville.edu/blog/ai-vs-human-intelligence/
+57. AI vs Human Creativity: The Ultimate Comparison | HP® Tech Takes, accessed August 15, 2025, https://www.hp.com/us-en/shop/tech-takes/ai-vs-human-creativity-comparison
+58. Full article: Artificial Creativity? Evaluating AI Against Human Performance in Creative Interpretation of Visual Stimuli - Taylor & Francis Online, accessed August 15, 2025, https://www.tandfonline.com/doi/full/10.1080/10447318.2024.2345430
+59. EmoBench: Evaluating the Emotional Intelligence of Large Language Models, accessed August 15, 2025, https://aclanthology.org/2024.acl-long.326/
+60. A Literature Review on Emotional Intelligence of Large Language Models (LLMs), accessed August 15, 2025, https://ijarcs.info/index.php/Ijarcs/article/download/7111/5820/15207
+61. EmoBench: Evaluating the Emotional Intelligence of Large ..., accessed August 15, 2025, https://www.alphaxiv.org/overview/2402.12071v3
+62. EmoBench: Evaluating the Emotional Intelligence of Large Language Models - OpenReview, accessed August 15, 2025, https://openreview.net/pdf/957e5e917d8eac5b87d4303ea952feb0884a1cb8.pdf
+63. Emotional intelligence of Large Language Models, accessed August 15, 2025, https://emotional-intelligence.github.io/
+64. How does AI handle commonsense reasoning? - Milvus, accessed August 15, 2025, https://milvus.io/ai-quick-reference/how-does-ai-handle-commonsense-reasoning
+65. Does GPT-4 have common sense? - xcorr: AI & neuro, accessed August 15, 2025, https://xcorr.net/2023/03/30/does-gpt-4-have-common-sense/
+66. Unfortunately, GPT-4.5 failed the common sense test. : r/singularity - Reddit, accessed August 15, 2025, https://www.reddit.com/r/singularity/comments/1izw0r8/unfortunately_gpt45_failed_the_common_sense_test/
+67. GPT-4 Can't Reason: Addendum - Medium, accessed August 15, 2025, https://medium.com/@konstantine_45825/gpt-4-cant-reason-addendum-ed79d8452d44
+68. [2005.14165] Language Models are Few-Shot Learners - arXiv, accessed August 15, 2025, https://arxiv.org/abs/2005.14165
+69. Language Models are Few-Shot Learners - NIPS, accessed August 15, 2025, https://proceedings.neurips.cc/paper/2020/file/1457c0d6bfcb4967418bfb8ac142f64a-Paper.pdf
+70. New ARC-AGI-3 benchmark shows that humans still outperform LLMs at pretty basic thinking - The Decoder, accessed August 15, 2025, https://the-decoder.com/new-arc-agi-3-benchmark-shows-that-humans-still-outperform-llms-at-pretty-basic-thinking/
+71. The Imagining the Digital Future Center: Technology experts, general public forecast impact of artificial intelligence by 2040 | Today at Elon, accessed August 15, 2025, https://www.elon.edu/u/news/2024/02/29/the-imagining-the-digital-future-center-technology-experts-general-public-forecast-impact-of-artificial-intelligence-by-2040/
+72. Experts Predict the Impact of AI by 2040 - Imagining the Digital Future Center, accessed August 15, 2025, https://imaginingthedigitalfuture.org/reports-and-publications/the-impact-of-artificial-intelligence-by-2040/the-17th-future-of-digital-life-experts-canvassing/
+73. THOUSANDS OF AI AUTHORS ON THE FUTURE OF AI, accessed August 15, 2025, https://aiimpacts.org/wp-content/uploads/2023/04/Thousands_of_AI_authors_on_the_future_of_AI.pdf
